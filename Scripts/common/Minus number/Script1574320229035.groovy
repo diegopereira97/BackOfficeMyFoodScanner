@@ -17,8 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'ClickNumber.clickNumber'(firstOperand.toString())
 
-WebUI.click(findTestObject('Object Repository/Page_React Calculator/button_minus'))
+WebUI.click(findTestObject('null'))
 
 CustomKeywords.'ClickNumber.clickNumber'(secondOperand.toString())
 
-WebUI.click(findTestObject('Object Repository/Page_React Calculator/button_equal'))
+WebUI.click(findTestObject('null'))

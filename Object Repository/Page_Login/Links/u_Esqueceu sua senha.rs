@@ -1,78 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_digit_6</name>
+   <name>u_Esqueceu sua senha</name>
    <tag></tag>
-   <elementGuidId>f4c544e7-833e-4def-8aa7-f006ea6d25f4</elementGuidId>
+   <elementGuidId>8538310d-aabc-4649-b7f0-5ac4de5c91d5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>u</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div[3]/div[3]/button</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Lembre me?'])[1]/following::u[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>u</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>6</value>
+      <value>Esqueceu sua senha?</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;component-app&quot;]/div[@class=&quot;component-button-panel&quot;]/div[3]/div[@class=&quot;component-button&quot;]/button[1]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;auth-layout-wrap&quot;]/div[@class=&quot;auth-content&quot;]/div[@class=&quot;card o-hidden&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;p-4&quot;]/div[@class=&quot;mt-3 text-center&quot;]/a[@class=&quot;text-muted&quot;]/u[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div[3]/div[3]/button</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lembre me?'])[1]/following::u[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='x'])[1]/following::button[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/following::u[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='÷'])[1]/following::button[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::u[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::u[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::button[5]</value>
+      <value>//*/text()[normalize-space(.)='Esqueceu sua senha?']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[3]/button</value>
+      <value>//u</value>
    </webElementXpaths>
 </WebElementEntity>

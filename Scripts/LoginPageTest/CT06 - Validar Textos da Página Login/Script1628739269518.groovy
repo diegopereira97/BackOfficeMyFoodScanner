@@ -9,10 +9,29 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementText(findTestObject('null'), "${result}")
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://myfoodscannerbo.collabmo.com.br/Account/Login')
+
+WebUI.verifyLinksAccessible(['http://myfoodscannerbo.collabmo.com.br/Account/Login'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Page_Login/Texts/h1_Login'), 'Login')
+
+WebUI.verifyElementText(findTestObject('Page_Login/Texts/label_Email'), 'Email')
+
+WebUI.verifyElementText(findTestObject('Page_Login/Texts/label_Password'), 'Password')
+
+WebUI.verifyElementText(findTestObject('Page_Login/Buttons/button_Login'), 'Login')
+
+WebUI.verifyElementText(findTestObject('Page_Login/Texts/label_Lembre me'), 'Lembre me?')
+
+WebUI.verifyElementText(findTestObject('Page_Login/Links/u_Esqueceu sua senha'), 'Esqueceu sua senha?')
+

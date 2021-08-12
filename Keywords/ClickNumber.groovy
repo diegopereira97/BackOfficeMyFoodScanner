@@ -25,34 +25,34 @@ public class ClickNumber {
 			digit = Integer.parseInt(String.valueOf(digit))
 			switch (digit) {
 				case 0:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_0'))
+					WebUI.click(findTestObject('Page_Login/button_digit_0'))
 					break
 				case 1:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_1'))
+					WebUI.click(findTestObject('Page_Login/button_digit_1'))
 					break
 				case 2:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_2'))
+					WebUI.click(findTestObject('Page_Login/button_digit_2'))
 					break
 				case 3:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_3'))
+					WebUI.click(findTestObject('Page_Login/button_digit_3'))
 					break
 				case 4:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_4'))
+					WebUI.click(findTestObject('Page_Login/button_digit_4'))
 					break
 				case 5:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_5'))
+					WebUI.click(findTestObject('Page_Login/button_digit_5'))
 					break
 				case 6:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_6'))
+					WebUI.click(findTestObject('Page_Login/button_digit_6'))
 					break
 				case 7:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_7'))
+					WebUI.click(findTestObject('Page_Login/button_digit_7'))
 					break
 				case 8:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_8'))
+					WebUI.click(findTestObject('Page_Login/button_digit_8'))
 					break
 				case 9:
-					WebUI.click(findTestObject('Page_React Calculator/button_digit_9'))
+					WebUI.click(findTestObject('Page_Login/button_digit_9'))
 					break
 			}
 		}

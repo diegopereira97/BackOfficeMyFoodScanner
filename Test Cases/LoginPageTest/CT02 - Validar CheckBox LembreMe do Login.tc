@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CT02 - Validar CheckBox LembreMe do Login</name>
+   <tag>#Login</tag>
+   <comment></comment>
+   <testCaseGuid>533e6ff4-3888-4b02-bc66-473d02b32560</testCaseGuid>
+</TestCaseEntity>
