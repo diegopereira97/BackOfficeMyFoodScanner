@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "544E424579AAB892B13F7E2C20EF189C",
+  "keywordClasses": [
+    {
+      "name": "myFoodScannerStepDefinitions.MyFoodHomeStep",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

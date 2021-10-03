@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "6882AA503782501B6BA9594449DC7052",
+  "keywordClasses": [
+    {
+      "name": "myFoodScannerStepDefinitions.MyFoodLoginStep",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
