@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Multiply number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffb1d7ae-d1b3-4c34-90b6-154e23f57ff8</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>99151fb1-502c-4938-b52f-61a6983f86dd</id>
+      <masked>false</masked>
+      <name>firstOperand</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>7ab4e905-9e61-4863-aede-c101ffc15802</id>
+      <masked>false</masked>
+      <name>secondOperand</name>
+   </variable>
+</TestCaseEntity>

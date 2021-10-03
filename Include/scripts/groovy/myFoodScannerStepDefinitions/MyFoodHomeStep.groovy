@@ -25,10 +25,13 @@ import cucumber.api.java.pt.Entao
 import internal.GlobalVariable
 
 public class MyFoodHomeStep {
-	
+
 	@E("visualizo a tela Home do MyFoodScanner")
 	def validarTelaHome() {
 		WebUI.verifyElementText(findTestObject('MyFood.Page.Home/Texts/h1_Seja bem vindo'), 'Seja bem vindo!')
 	}
-	
+	@E("E fecho navegador")
+	def closedBrowser() {
+		WebUI.closeBrowser()
+	}
 }

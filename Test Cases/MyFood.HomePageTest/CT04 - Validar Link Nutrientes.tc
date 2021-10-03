@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CT04 - Validar Link Nutrientes</name>
-   <tag>#Login</tag>
-   <comment></comment>
-   <testCaseGuid>ec8caf61-19f9-428b-a302-483e4b875cf2</testCaseGuid>
-</TestCaseEntity>

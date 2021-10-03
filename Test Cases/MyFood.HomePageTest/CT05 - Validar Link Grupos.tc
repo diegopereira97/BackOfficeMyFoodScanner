@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CT05 - Validar Link Grupos</name>
-   <tag>#Login</tag>
-   <comment></comment>
-   <testCaseGuid>1e46d3ca-b667-4f29-9276-97a6837f4a52</testCaseGuid>
-</TestCaseEntity>

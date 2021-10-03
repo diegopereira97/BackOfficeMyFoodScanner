@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CT03 - Validar Link Ingredientes</name>
-   <tag>#Login</tag>
-   <comment></comment>
-   <testCaseGuid>4221bacd-700c-4e59-8b41-37efa5ad9122</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CT01 - Validar Login com Sucesso</name>
-   <tag>#Login</tag>
-   <comment></comment>
-   <testCaseGuid>ee669551-36a6-4ef6-84f4-8ef5be08c6e1</testCaseGuid>
-</TestCaseEntity>

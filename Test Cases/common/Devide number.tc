@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Devide number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9775ce48-c1c0-4a7a-b1f7-2bfcc1a1ab8b</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>2bfb50f1-3116-4c26-be77-6c41cc869ac5</id>
+      <masked>false</masked>
+      <name>firstOperand</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>af26ed8e-5c8b-4593-ad6b-c54f74be7e0b</id>
+      <masked>false</masked>
+      <name>secondOperand</name>
+   </variable>
+</TestCaseEntity>
