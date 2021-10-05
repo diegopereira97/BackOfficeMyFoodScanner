@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>The Calculator page is loaded successfully</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>018a447b-95c3-46fb-9572-93aacabb99d6</testCaseGuid>
-</TestCaseEntity>

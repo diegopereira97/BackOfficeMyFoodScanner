@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://myfoodscannerbo.collabmo.com.br/Account/Login?ReturnUrl=%2F')
 
-WebUI.setText(findTestObject('Page_Login/Fields/input_Email_Login'), 'root')
+WebUI.setText(findTestObject('null'), 'root')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/Fields/input_Password_Password'), 'l+893ldgBQc6lUnZGG0ANg==')
+WebUI.setEncryptedText(findTestObject('null'), 'l+893ldgBQc6lUnZGG0ANg==')
 
-WebUI.check(findTestObject('Page_Login/CheckBox/input_Login_RememberMe'))
+WebUI.check(findTestObject('null'))
 
 WebUI.closeBrowser()
 
@@ -33,5 +33,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://myfoodscannerbo.collabmo.com.br/')
 
-WebUI.verifyElementText(findTestObject('Page_Login/Fields/input_Email_Login'), 'root')
+WebUI.verifyElementText(findTestObject('null'), 'root')
 

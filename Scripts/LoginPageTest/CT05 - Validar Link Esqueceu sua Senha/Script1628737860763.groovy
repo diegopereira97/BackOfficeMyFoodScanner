@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://myfoodscannerbo.collabmo.com.br/Account/Login?ReturnUrl=%2F')
 
-WebUI.click(findTestObject('Page_Login/Links/u_Esqueceu sua senha'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyLinksAccessible(['http://myfoodscannerbo.collabmo.com.br/Account/ForgotPassword'])
 

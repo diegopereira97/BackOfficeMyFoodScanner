@@ -23,15 +23,15 @@ WebUI.navigateToUrl('http://myfoodscannerbo.collabmo.com.br/Account/Login')
 
 WebUI.verifyLinksAccessible(['http://myfoodscannerbo.collabmo.com.br/Account/Login'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Login/Texts/h1_Login'), 'Login')
+WebUI.verifyElementText(findTestObject('null'), 'Login')
 
-WebUI.verifyElementText(findTestObject('Page_Login/Texts/label_Email'), 'Email')
+WebUI.verifyElementText(findTestObject('null'), 'Email')
 
-WebUI.verifyElementText(findTestObject('Page_Login/Texts/label_Password'), 'Password')
+WebUI.verifyElementText(findTestObject('null'), 'Password')
 
-WebUI.verifyElementText(findTestObject('Page_Login/Buttons/button_Login'), 'Login')
+WebUI.verifyElementText(findTestObject('null'), 'Login')
 
-WebUI.verifyElementText(findTestObject('Page_Login/Texts/label_Lembre me'), 'Lembre me?')
+WebUI.verifyElementText(findTestObject('null'), 'Lembre me?')
 
-WebUI.verifyElementText(findTestObject('Page_Login/Links/u_Esqueceu sua senha'), 'Esqueceu sua senha?')
+WebUI.verifyElementText(findTestObject('null'), 'Esqueceu sua senha?')
 

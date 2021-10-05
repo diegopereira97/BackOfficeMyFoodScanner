@@ -30,8 +30,14 @@ public class MyFoodHomeStep {
 	def validarTelaHome() {
 		WebUI.verifyElementText(findTestObject('MyFood.Page.Home/Texts/h1_Seja bem vindo'), 'Seja bem vindo!')
 	}
-	@E("E fecho navegador")
-	def closedBrowser() {
-		WebUI.closeBrowser()
+
+	@E("teste teste")
+	def moverMouseparaMenuProdutos(){
+		WebUI.click(findTestObject('MyFood.Page.Home/Menus/a_Produtos'))
+	}
+
+	@E("")
+	def clicarnoSubmenuProdutos(){
+		WebUI.click(findTestObject('MyFood.Page.Home/SubMenus/a_Produtos'))
 	}
 }

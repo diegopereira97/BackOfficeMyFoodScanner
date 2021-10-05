@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://myfoodscannerbo.collabmo.com.br/Account/Login?ReturnUrl=%2F')
 
-WebUI.setText(findTestObject('Page_Login/Fields/input_Email_Login'), '')
+WebUI.setText(findTestObject('MyFood.Page.Login/Fields/input_Email_Login'), '')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/Fields/input_Password_Password'), 'l+893ldgBQc6lUnZGG0ANg==')
+WebUI.setEncryptedText(findTestObject('MyFood.Page.Login/Fields/input_Password_Password'), 'l+893ldgBQc6lUnZGG0ANg==')
 
-WebUI.click(findTestObject('Page_Login/Buttons/button_Login'))
+WebUI.click(findTestObject('MyFood.Page.Login/Buttons/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Page_Login/Alerts/span_The Login field is required'), 'The Login field is required.')
+WebUI.verifyElementText(findTestObject('MyFood.Page.Login/Alerts/span_The Login field is required'), 'The Login field is required.')
 

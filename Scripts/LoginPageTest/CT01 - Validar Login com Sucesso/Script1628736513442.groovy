@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://myfoodscannerbo.collabmo.com.br/Account/Login?ReturnUrl=%2F')
 
-WebUI.setText(findTestObject('Page_Login/Fields/input_Email_Login'), 'root')
+WebUI.setText(findTestObject('null'), 'root')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/Fields/input_Password_Password'), 'l+893ldgBQc6lUnZGG0ANg==')
+WebUI.setEncryptedText(findTestObject('null'), 'l+893ldgBQc6lUnZGG0ANg==')
 
-WebUI.click(findTestObject('Page_Login/Buttons/button_Login'))
+WebUI.click(findTestObject('null'))
 
