@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CT05 - Validar Link Esqueceu sua Senha</name>
-   <tag>#Login</tag>
-   <comment></comment>
-   <testCaseGuid>004df96b-7898-42b3-bc7f-3765384577d4</testCaseGuid>
-</TestCaseEntity>

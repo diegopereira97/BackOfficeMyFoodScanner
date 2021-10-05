@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CT03 - Validar Obrigatoriedade do Campo Login</name>
-   <tag>#Login</tag>
-   <comment></comment>
-   <testCaseGuid>7ab56e03-c587-487a-9469-90428a1a9914</testCaseGuid>
-</TestCaseEntity>

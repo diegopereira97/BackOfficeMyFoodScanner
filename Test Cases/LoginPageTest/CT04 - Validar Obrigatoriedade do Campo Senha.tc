@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CT04 - Validar Obrigatoriedade do Campo Senha</name>
-   <tag>#Login</tag>
-   <comment></comment>
-   <testCaseGuid>fc7d7c26-d403-4d2b-9bbe-490b93fef7d5</testCaseGuid>
-</TestCaseEntity>
