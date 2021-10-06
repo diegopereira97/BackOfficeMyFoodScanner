@@ -43,3 +43,5 @@ WebUI.click(findTestObject('MyFood.Page.Products/Buttons/adicionarProdutoButtons
 
 WebUI.verifyElementText(findTestObject('MyFood.Page.ProductsRegister/Text/validarTextoCadastrarProduto'), 'Cadastrar Produto')
 
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/input_Nome_Name'), 'ProdutoAutomatizado')
+

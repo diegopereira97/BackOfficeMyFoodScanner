@@ -83,7 +83,7 @@ public class MyFoodLoginStep {
 	}
 	@E("devo visualizar o alerta do campo senha (.*)")
 	def validarAlertaCampoSenha(String alertaSenha) {
-		WebUI.verifyElementText(findTestObject('MyFood.Page.Login/Alerts/span_The Password field is required'), alertaSenha)		
+		WebUI.verifyElementText(findTestObject('MyFood.Page.Login/Alerts/span_The Password field is required'), alertaSenha)
 	}
 	@E("fecho navegador")
 	def closedBrowser() {
