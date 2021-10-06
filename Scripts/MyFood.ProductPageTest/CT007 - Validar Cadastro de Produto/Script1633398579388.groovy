@@ -43,5 +43,9 @@ WebUI.click(findTestObject('MyFood.Page.Products/Buttons/adicionarProdutoButtons
 
 WebUI.verifyElementText(findTestObject('MyFood.Page.ProductsRegister/Text/validarTextoCadastrarProduto'), 'Cadastrar Produto')
 
-WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/input_Nome_Name'), 'ProdutoAutomatizado')
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirNomeProduto'), 'ProdutoAutomatizado1')
+
+WebUI.submit(findTestObject('MyFood.Page.ProductsRegister/Buttons/button_Salvar Produto'))
+
+WebUI.verifyElementText(findTestObject('MyFood.Page.Products/Alerts/alertsProdutoCriado'), 'Successo! Produto criado!')
 
