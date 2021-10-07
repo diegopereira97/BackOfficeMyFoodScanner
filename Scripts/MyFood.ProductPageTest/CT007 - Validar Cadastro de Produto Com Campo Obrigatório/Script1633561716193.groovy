@@ -45,6 +45,28 @@ WebUI.verifyElementText(findTestObject('MyFood.Page.ProductsRegister/Text/valida
 
 WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirNomeProduto'), 'ProdutoAutomatizado1')
 
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirCodigoEAN'), '123456')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirCodigoNCM'), '654321')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirObservação'), 'ProdutoAutomatizado1')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirCuriosidades'), 'Teste automatizado')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirEmbalagem'), 'EmbalagemAutomatizada')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirInformacoesExtras'), 'Teste Automatizados')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirLitragem'), '2')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirPais'), 'Brasil')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirReferencias'), 'Referencia em trabalho')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirSinonimo'), 'Sinonimo automatocao')
+
+WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirTipoEmbalagem'), '250g')
+
 WebUI.submit(findTestObject('MyFood.Page.ProductsRegister/Buttons/buttonSalvarProduto'))
 
 WebUI.verifyElementText(findTestObject('MyFood.Page.Products/Alerts/alertsSuccessoProduto'), 'Successo!')
