@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Salvar Produto</name>
+   <name>buttonSalvarProduto</name>
    <tag></tag>
    <elementGuidId>8024ab5b-798d-4067-a330-5ba88dc953b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.float-right.mb-4</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//form[@id='productForm']/div/div/div/div/div[2]/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.float-right.mb-4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

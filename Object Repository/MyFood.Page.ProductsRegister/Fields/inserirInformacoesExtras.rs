@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Litragem_PackageContent</name>
+   <name>inserirInformacoesExtras</name>
    <tag></tag>
-   <elementGuidId>e71b37b8-ed4a-4636-a1c5-9c1b3d9957a1</elementGuidId>
+   <elementGuidId>cd0ad7ae-6da9-4a11-b901-d7aef618b679</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#PackageContent</value>
+         <key>XPATH</key>
+         <value>//textarea[@id='InformacoesExtra']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='PackageContent']</value>
+         <key>CSS</key>
+         <value>#InformacoesExtra</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,14 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>6</value>
+      <value>300</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Conteúdo</value>
+      <value>Informações Extras</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,55 +56,55 @@
       <matchCondition>equals</matchCondition>
       <name>data-val-length</name>
       <type>Main</type>
-      <value>The field Litragem must be a string with a maximum length of 100.</value>
+      <value>The field Informações Extras must be a string with a maximum length of 300.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val-length-max</name>
       <type>Main</type>
-      <value>100</value>
+      <value>300</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>PackageContent</value>
+      <value>InformacoesExtra</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>PackageContent</value>
+      <value>InformacoesExtra</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;PackageContent&quot;)</value>
+      <value>id(&quot;InformacoesExtra&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='PackageContent']</value>
+      <value>//textarea[@id='InformacoesExtra']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[7]/div[2]/div/input</value>
+      <value>//form[@id='productForm']/div/div[10]/div/div/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div[2]/div/input</value>
+      <value>//div[10]/div/div/textarea</value>
    </webElementXpaths>
 </WebElementEntity>

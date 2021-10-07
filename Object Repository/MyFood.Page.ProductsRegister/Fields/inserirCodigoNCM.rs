@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Pais_Country</name>
+   <name>inserirCodigoNCM</name>
    <tag></tag>
-   <elementGuidId>1f2d07b1-385d-41ef-a770-c56c95517a49</elementGuidId>
+   <elementGuidId>867e5028-3f25-4d4a-9ce2-3a27d7759dc0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Country</value>
+         <key>XPATH</key>
+         <value>//input[@id='NCMCode']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Country']</value>
+         <key>CSS</key>
+         <value>#NCMCode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,13 +45,6 @@
       <value>30</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Pais</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val</name>
@@ -63,55 +56,62 @@
       <matchCondition>equals</matchCondition>
       <name>data-val-length</name>
       <type>Main</type>
-      <value>The field Pais must be a string with a maximum length of 20.</value>
+      <value>The field Código NCM must be a string with a maximum length of 30.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val-length-max</name>
       <type>Main</type>
-      <value>20</value>
+      <value>30</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-required</name>
+      <type>Main</type>
+      <value>Código NCM é obrigatório</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Country</value>
+      <value>NCMCode</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Country</value>
+      <value>NCMCode</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Country&quot;)</value>
+      <value>id(&quot;NCMCode&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='Country']</value>
+      <value>//input[@id='NCMCode']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[9]/div[2]/div/input</value>
+      <value>//form[@id='productForm']/div/div[4]/div[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[9]/div[2]/div/input</value>
+      <value>//div[4]/div[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

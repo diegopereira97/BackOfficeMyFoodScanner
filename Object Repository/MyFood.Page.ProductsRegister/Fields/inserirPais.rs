@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Imagem_ImageFile</name>
+   <name>inserirPais</name>
    <tag></tag>
-   <elementGuidId>2ad6b802-8840-4f0a-86e1-e29211a7c6cb</elementGuidId>
+   <elementGuidId>1f2d07b1-385d-41ef-a770-c56c95517a49</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#ImageFile</value>
+         <key>XPATH</key>
+         <value>//input[@id='Country']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ImageFile']</value>
+         <key>CSS</key>
+         <value>#Country</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,25 +24,32 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>accept</name>
-      <type>Main</type>
-      <value>image/*</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onchange</name>
-      <type>Main</type>
-      <value>Filevalidation()</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>file</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>30</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Pais</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,57 +61,57 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-val-fileextensions</name>
+      <name>data-val-length</name>
       <type>Main</type>
-      <value>The ImageFile field only accepts files with the following extensions: .jpg, .jpeg, .png</value>
+      <value>The field Pais must be a string with a maximum length of 20.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-val-fileextensions-extensions</name>
+      <name>data-val-length-max</name>
       <type>Main</type>
-      <value>.jpg,.jpeg,.png</value>
+      <value>20</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ImageFile</value>
+      <value>Country</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ImageFile</value>
+      <value>Country</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ImageFile&quot;)</value>
+      <value>id(&quot;Country&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ImageFile']</value>
+      <value>//input[@id='Country']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[10]/div[2]/input</value>
+      <value>//form[@id='productForm']/div/div[9]/div[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[10]/div[2]/input</value>
+      <value>//div[9]/div[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

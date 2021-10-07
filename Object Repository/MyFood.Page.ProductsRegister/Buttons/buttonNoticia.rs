@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Cdigo EAN_BarCode</name>
+   <name>buttonNoticia</name>
    <tag></tag>
-   <elementGuidId>3ceaea0c-1034-4914-a640-05d4b87f2d55</elementGuidId>
+   <elementGuidId>9ac4b9a9-07eb-4a1e-aeef-0db0b5f4126b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#BarCode</value>
+         <key>XPATH</key>
+         <value>//input[@id='addNewsRow']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='BarCode']</value>
+         <key>CSS</key>
+         <value>#addNewsRow</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,83 +28,55 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>30</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-length</name>
-      <type>Main</type>
-      <value>The field Código EAN must be a string with a maximum length of 100.</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-length-max</name>
-      <type>Main</type>
-      <value>100</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>BarCode</value>
+      <value>addNewsRow</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>class</name>
       <type>Main</type>
-      <value>BarCode</value>
+      <value>btn btn-primary float-right mb-4</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Adicionar Notícia</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;BarCode&quot;)</value>
+      <value>id(&quot;addNewsRow&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='BarCode']</value>
+      <value>//input[@id='addNewsRow']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[6]/div/div/input</value>
+      <value>//form[@id='productForm']/div/div[21]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/div/div/input</value>
+      <value>//div[21]/input</value>
    </webElementXpaths>
 </WebElementEntity>

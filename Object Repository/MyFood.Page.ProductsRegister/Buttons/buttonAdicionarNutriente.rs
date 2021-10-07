@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Observao_Observation</name>
+   <name>buttonAdicionarNutriente</name>
    <tag></tag>
-   <elementGuidId>38e61df7-acce-4f26-8259-6733ece3a50f</elementGuidId>
+   <elementGuidId>ae82bc1a-25d7-41da-9736-82a499c78ad9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Observation</value>
+         <key>XPATH</key>
+         <value>//input[@id='addRow']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='Observation']</value>
+         <key>CSS</key>
+         <value>#addRow</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Observation</value>
+      <value>addRow</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Observation</value>
+      <value>btn btn-primary float-right mb-4</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Adicionar Nutriente</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Observation&quot;)</value>
+      <value>id(&quot;addRow&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='Observation']</value>
+      <value>//input[@id='addRow']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='observationBox']/div/textarea</value>
+      <value>//form[@id='productForm']/div/div[12]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
+      <value>//div[12]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

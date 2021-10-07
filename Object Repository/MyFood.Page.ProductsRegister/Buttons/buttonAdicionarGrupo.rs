@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonsIngredients</name>
+   <name>buttonAdicionarGrupo</name>
    <tag></tag>
-   <elementGuidId>3a56980d-13fb-4e74-b26b-60c6abb83468</elementGuidId>
+   <elementGuidId>6fbe8aff-539c-4a5c-8048-3431bf35fa9a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@value='Adicionar Certificado']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='Adicionar Ingrediente']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +41,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-target</name>
       <type>Main</type>
-      <value>#ingredientModal</value>
+      <value>#certificateModal</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +55,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Adicionar Ingrediente</value>
+      <value>Adicionar Certificado</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,20 +69,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Adicionar Ingrediente']</value>
+      <value>//input[@value='Adicionar Certificado']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[14]/div/input</value>
+      <value>//form[@id='productForm']/div/div[21]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[14]/div/input</value>
+      <value>//div[21]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

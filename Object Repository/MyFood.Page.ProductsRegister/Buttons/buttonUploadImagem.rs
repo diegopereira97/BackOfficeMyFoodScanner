@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Sinnimo_Synonimus</name>
+   <name>buttonUploadImagem</name>
    <tag></tag>
-   <elementGuidId>30c2f15d-60ff-4b4c-ad74-8fba2e9aed5f</elementGuidId>
+   <elementGuidId>2ad6b802-8840-4f0a-86e1-e29211a7c6cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Synonimus</value>
+         <key>XPATH</key>
+         <value>//input[@id='ImageFile']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='Synonimus']</value>
+         <key>CSS</key>
+         <value>#ImageFile</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>accept</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>image/*</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>onchange</name>
       <type>Main</type>
-      <value>300</value>
+      <value>Filevalidation()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>type</name>
       <type>Main</type>
-      <value>Sinônimos</value>
+      <value>file</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-fileextensions</name>
+      <type>Main</type>
+      <value>The ImageFile field only accepts files with the following extensions: .jpg, .jpeg, .png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-fileextensions-extensions</name>
+      <type>Main</type>
+      <value>.jpg,.jpeg,.png</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Synonimus</value>
+      <value>ImageFile</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Synonimus</value>
+      <value>ImageFile</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Synonimus&quot;)</value>
+      <value>id(&quot;ImageFile&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='Synonimus']</value>
+      <value>//input[@id='ImageFile']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[9]/div/div/textarea</value>
+      <value>//form[@id='productForm']/div/div[10]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[9]/div/div/textarea</value>
+      <value>//div[10]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

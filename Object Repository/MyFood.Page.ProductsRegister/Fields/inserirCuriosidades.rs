@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Cdigo NCM_NCMCode</name>
+   <name>inserirCuriosidades</name>
    <tag></tag>
-   <elementGuidId>867e5028-3f25-4d4a-9ce2-3a27d7759dc0</elementGuidId>
+   <elementGuidId>786a0b4f-d0ae-4c2a-bd19-82b7c07caecd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#NCMCode</value>
+         <key>XPATH</key>
+         <value>//textarea[@id='Curiosities']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='NCMCode']</value>
+         <key>CSS</key>
+         <value>#Curiosities</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,14 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>30</value>
+      <value>300</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Curiosidades</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,62 +56,55 @@
       <matchCondition>equals</matchCondition>
       <name>data-val-length</name>
       <type>Main</type>
-      <value>The field Código NCM must be a string with a maximum length of 30.</value>
+      <value>The field Curiosidades must be a string with a maximum length of 300.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val-length-max</name>
       <type>Main</type>
-      <value>30</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-required</name>
-      <type>Main</type>
-      <value>Código NCM é obrigatório</value>
+      <value>300</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>NCMCode</value>
+      <value>Curiosities</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>NCMCode</value>
+      <value>Curiosities</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;NCMCode&quot;)</value>
+      <value>id(&quot;Curiosities&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='NCMCode']</value>
+      <value>//textarea[@id='Curiosities']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[4]/div[2]/div/input</value>
+      <value>//form[@id='productForm']/div/div[8]/div/div/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/input</value>
+      <value>//div[8]/div/div/textarea</value>
    </webElementXpaths>
 </WebElementEntity>

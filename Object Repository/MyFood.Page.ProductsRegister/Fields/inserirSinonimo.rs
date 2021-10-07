@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Informaes Extras_InformacoesExtra</name>
+   <name>inserirSinonimo</name>
    <tag></tag>
-   <elementGuidId>cd0ad7ae-6da9-4a11-b901-d7aef618b679</elementGuidId>
+   <elementGuidId>30c2f15d-60ff-4b4c-ad74-8fba2e9aed5f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#InformacoesExtra</value>
+         <key>XPATH</key>
+         <value>//textarea[@id='Synonimus']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='InformacoesExtra']</value>
+         <key>CSS</key>
+         <value>#Synonimus</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,69 +42,48 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Informações Extras</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-length</name>
-      <type>Main</type>
-      <value>The field Informações Extras must be a string with a maximum length of 300.</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-length-max</name>
-      <type>Main</type>
-      <value>300</value>
+      <value>Sinônimos</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>InformacoesExtra</value>
+      <value>Synonimus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>InformacoesExtra</value>
+      <value>Synonimus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;InformacoesExtra&quot;)</value>
+      <value>id(&quot;Synonimus&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='InformacoesExtra']</value>
+      <value>//textarea[@id='Synonimus']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[10]/div/div/textarea</value>
+      <value>//form[@id='productForm']/div/div[9]/div/div/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[10]/div/div/textarea</value>
+      <value>//div[9]/div/div/textarea</value>
    </webElementXpaths>
 </WebElementEntity>

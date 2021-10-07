@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Tipo de Embalagem_PackageType</name>
+   <name>inserirLitragem</name>
    <tag></tag>
-   <elementGuidId>53f5f3ff-89b1-4028-b631-b519d456f08c</elementGuidId>
+   <elementGuidId>e71b37b8-ed4a-4636-a1c5-9c1b3d9957a1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#PackageType</value>
+         <key>XPATH</key>
+         <value>//input[@id='PackageContent']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='PackageType']</value>
+         <key>CSS</key>
+         <value>#PackageContent</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>30</value>
+      <value>6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Tipo de Embalagem</value>
+      <value>Conteúdo</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-val-length</name>
       <type>Main</type>
-      <value>The field Tipo de Embalagem must be a string with a maximum length of 100.</value>
+      <value>The field Litragem must be a string with a maximum length of 100.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,41 +77,41 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>PackageType</value>
+      <value>PackageContent</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>PackageType</value>
+      <value>PackageContent</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;PackageType&quot;)</value>
+      <value>id(&quot;PackageContent&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='PackageType']</value>
+      <value>//input[@id='PackageContent']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[7]/div/div/input</value>
+      <value>//form[@id='productForm']/div/div[7]/div[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div/div/input</value>
+      <value>//div[7]/div[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Curiosidades_Curiosities</name>
+   <name>inserirTipoEmbalagem</name>
    <tag></tag>
-   <elementGuidId>786a0b4f-d0ae-4c2a-bd19-82b7c07caecd</elementGuidId>
+   <elementGuidId>53f5f3ff-89b1-4028-b631-b519d456f08c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Curiosities</value>
+         <key>XPATH</key>
+         <value>//input[@id='PackageType']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='Curiosities']</value>
+         <key>CSS</key>
+         <value>#PackageType</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>300</value>
+      <value>30</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Curiosidades</value>
+      <value>Tipo de Embalagem</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,55 +63,55 @@
       <matchCondition>equals</matchCondition>
       <name>data-val-length</name>
       <type>Main</type>
-      <value>The field Curiosidades must be a string with a maximum length of 300.</value>
+      <value>The field Tipo de Embalagem must be a string with a maximum length of 100.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val-length-max</name>
       <type>Main</type>
-      <value>300</value>
+      <value>100</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Curiosities</value>
+      <value>PackageType</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Curiosities</value>
+      <value>PackageType</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Curiosities&quot;)</value>
+      <value>id(&quot;PackageType&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='Curiosities']</value>
+      <value>//input[@id='PackageType']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='productForm']/div/div[8]/div/div/textarea</value>
+      <value>//form[@id='productForm']/div/div[7]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[8]/div/div/textarea</value>
+      <value>//div[7]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

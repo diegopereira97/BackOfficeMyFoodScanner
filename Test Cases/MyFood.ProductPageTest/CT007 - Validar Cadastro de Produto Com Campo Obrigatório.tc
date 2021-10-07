@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CT007 - Validar Cadastro de Produto</name>
+   <name>CT007 - Validar Cadastro de Produto Com Campo Obrigatório</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>30a4c991-a5f3-4353-b58c-c8d30b125bd2</testCaseGuid>
