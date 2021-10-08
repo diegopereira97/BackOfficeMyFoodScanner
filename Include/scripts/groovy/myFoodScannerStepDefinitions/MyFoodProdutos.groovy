@@ -21,4 +21,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class MyFoodProdutos {
+
+	@E("valido titulo da pagina")
+	def validarTextoProduto() {
+		WebUI.verifyElementText(findTestObject('MyFood.Page.Products/Texts/validarTextoProdutos'), 'Produtos')
+	}
+
+	@E("clico no botão Próximo")
+	def clicarEmProximo() {
+		WebUI.click(findTestObject('MyFood.Page.Products/Buttons/paginacaoProximo'))
+	}
+
+	@E("clico no botão Anterior")
+	def clicarEmAnterior() {
+		WebUI.click(findTestObject('MyFood.Page.Products/Buttons/paginacaoAnterior'))
+	}
+
+	@E("clico no botão adicionar produto")
+	def clicoAdicionarProduto() {
+		WebUI.click(findTestObject('MyFood.Page.Products/Buttons/adicionarProdutoButtons'))
+	}
 }

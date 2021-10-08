@@ -31,13 +31,12 @@ public class MyFoodHomeStep {
 		WebUI.verifyElementText(findTestObject('MyFood.Page.Home/Texts/h1_Seja bem vindo'), 'Seja bem vindo!')
 	}
 
-	@E("teste teste")
+	@E("clico no submenu Produto")
 	def moverMouseparaMenuProdutos(){
 		WebUI.click(findTestObject('MyFood.Page.Home/Menus/a_Produtos'))
-	}
-
-	@E("")
-	def clicarnoSubmenuProdutos(){
 		WebUI.click(findTestObject('MyFood.Page.Home/SubMenus/a_Produtos'))
 	}
+	
 }
+
+
