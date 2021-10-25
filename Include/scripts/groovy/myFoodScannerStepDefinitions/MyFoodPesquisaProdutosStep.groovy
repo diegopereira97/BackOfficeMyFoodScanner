@@ -17,12 +17,16 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import cucumber.api.java.pt.Dado
+import cucumber.api.java.pt.Quando
+import cucumber.api.java.pt.E
+import cucumber.api.java.pt.Entao
 
 import internal.GlobalVariable
 
-public class MyFoodProdutos {
+public class MyFoodPesquisaProdutosStep {
 
-	@E("valido titulo da pagina")
+	@E("valido título da página")
 	def validarTextoProduto() {
 		WebUI.verifyElementText(findTestObject('MyFood.Page.Products/Texts/validarTextoProdutos'), 'Produtos')
 	}

@@ -36,7 +36,6 @@ public class MyFoodHomeStep {
 		WebUI.click(findTestObject('MyFood.Page.Home/Menus/a_Produtos'))
 		WebUI.click(findTestObject('MyFood.Page.Home/SubMenus/a_Produtos'))
 	}
-	
 }
 
 

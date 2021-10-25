@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DBC789A972360869C47A8027A9DDC60B",
+  "keywordClasses": [
+    {
+      "name": "myFoodScannerStepDefinitions.MyFoodCadastrarProdutoStep",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

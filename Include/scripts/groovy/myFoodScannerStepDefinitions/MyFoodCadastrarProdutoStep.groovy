@@ -36,17 +36,17 @@ import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-
-import cucumber.api.java.en.And
-import cucumber.api.java.en.Given
-import cucumber.api.java.en.Then
-import cucumber.api.java.en.When
-
+import cucumber.api.java.pt.Dado
+import cucumber.api.java.pt.Quando
+import cucumber.api.java.pt.E
+import cucumber.api.java.pt.Entao
 
 
-class MyFood_CadastrarProduto {
+
+
+class MyFoodCadastrarProdutoStep {
 	
-	@E("valido o títuilo da página")
+	@E("valido o título da página")
 	def validarTitulodaPaginaCadastrarProduto() {
 		WebUI.verifyElementText(findTestObject('MyFood.Page.ProductsRegister/Text/validarTextoCadastrarProduto'), 'Cadastrar Produto')
 	}
@@ -56,48 +56,70 @@ class MyFood_CadastrarProduto {
 		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirNomeProduto'), 'ProdutoAutomatizado1')
 	}
 	
-	@E("informo o codigo EAN")
+	@E("informo o codigo EAN do produto")
 	def informoCodigoEAN() {
 		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirCodigoEAN'), '123456')
 	}
 	
-	@E("informo o codigo NCM")
+	@E("informo o codigo NCM do produto")
 	def informoCodigoNCM() {
 		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirCodigoNCM'), '654321')
 	}
 	
+	@E("informo a observação do produto")
+	def informarObservacaoProduto() {
+		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirObservação'), 'ProdutoAutomatizado1')
+	}
 	
+	@E("informo a curiosidade do produto")
+	def informarCuriosidadeProduto() {
+		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirCuriosidades'), 'Teste automatizado')
+	}
 	
+	@E("informo a embalagem do produto")
+	def informarEmbalagemProduto() {
+		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirEmbalagem'), 'EmbalagemAutomatizada')
+	}
 	
+	@E("informo as informações extras do produto")
+	def informarInformacoesExtrasProduto() {
+		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirInformacoesExtras'), 'Teste Automatizados')
+	}
 	
+	@E("informo a litragem do produto")
+	def informarLitragemProduto() {
+		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirLitragem'), '2')
+	}
 	
+	@E("informo o país do produto")
+	def informarPaisProduto() {
+		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirPais'), 'Brasil')
+	}
 	
+	@E("informo a referencia do produto")
+	def informarReferenciaProduto() {
+		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirReferencias'), 'Referencia em trabalho')
+	}
 	
+	@E("informo o sinônimo do produto")
+	def informarSinonimoProduto() {
+		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirSinonimo'), 'Sinonimo automatocao')
+	}
 	
+	@E("informo o tipo embalagem do produto")
+	def informarTipoEmbalagemProduto() {
+		WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirTipoEmbalagem'), '250g')
+	}
 	
-	WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirObservação'), 'ProdutoAutomatizado1')
+	@E("clico no botão salvar do produto")
+	def clicarSalvarProduto() {
+		WebUI.submit(findTestObject('MyFood.Page.ProductsRegister/Buttons/buttonSalvarProduto'))
+	}
 	
-	WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirCuriosidades'), 'Teste automatizado')
-	
-	WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirEmbalagem'), 'EmbalagemAutomatizada')
-	
-	WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirInformacoesExtras'), 'Teste Automatizados')
-	
-	WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirLitragem'), '2')
-	
-	WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirPais'), 'Brasil')
-	
-	WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirReferencias'), 'Referencia em trabalho')
-	
-	WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirSinonimo'), 'Sinonimo automatocao')
-	
-	WebUI.setText(findTestObject('MyFood.Page.ProductsRegister/Fields/inserirTipoEmbalagem'), '250g')
-	
-	WebUI.submit(findTestObject('MyFood.Page.ProductsRegister/Buttons/buttonSalvarProduto'))
-	
-	WebUI.verifyElementText(findTestObject('MyFood.Page.Products/Alerts/alertsSuccessoProduto'), 'Successo!')
-	
-	
+	@E("valido alerta do produto criado com sucesso")
+	def validarAlertaProdutoCriadoSucesso() {
+		WebUI.verifyElementText(findTestObject('MyFood.Page.Products/Alerts/alertsSuccessoProduto'), 'Successo!')
+	}
 	
 	
 }

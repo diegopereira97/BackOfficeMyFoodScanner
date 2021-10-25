@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "6714B518778AE0DEC752026484CCC17F",
+  "keywordFileContentHash": "0F25000DA7B1CFEF7B23E2411784A047",
   "keywordClasses": [
     {
       "name": "myFoodScannerStepDefinitions.MyFood_CadastrarProduto",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
